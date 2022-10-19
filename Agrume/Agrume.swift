@@ -290,7 +290,7 @@ public final class Agrume: UIViewController {
 //        indicatorStyle = style == .dark ? .large : .medium
 //      case let .colored(color):
 //        indicatorStyle = color.isLight ? .medium : .large
-//      }
+//      } removed ios 13 dependency
         let spinner = UIActivityIndicatorView(style: .whiteLarge)
       spinner.center = view.center
       spinner.startAnimating()
